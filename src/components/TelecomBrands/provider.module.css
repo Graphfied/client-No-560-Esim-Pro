@@ -1,0 +1,22 @@
+/* provider.module.css */
+
+/* Style for the dots container */
+.slick-dots.custom-dots {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each individual dot */
+.slick-dots.custom-dots li {
+  margin: 0 4px;
+  display: inline-block;
+}
+
+/* Style for the active dot */
+.slick-dots.custom-dots li.slick-active button {
+  background-color: #007bff; /* Set your desired active dot background color */
+}
